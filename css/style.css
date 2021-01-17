@@ -939,11 +939,12 @@ header .container .col-md-7 p {
   padding-right: 20px;
 }
 
-#faq #faq-list i {
-  font-size: 24px;
-  position: absolute;
+#faq #faq-list a i {
+  font-size: 22px;
   right: 0;
+  float:right;
   top: 20px;
+  color: rgb(83, 82, 82);
 }
 
 #faq #faq-list p {
@@ -958,9 +959,7 @@ header .container .col-md-7 p {
   color: #000;
 }
 
-#faq #faq-list a.collapsed i::before {
-  content: "\f2c7" !important;
-}
+
 
 /*--------------------------------------------------------------
 # Footer
@@ -2170,7 +2169,7 @@ hr.lines:before {
 }
 .PACardContainer:hover .PACard
 {
-    filter: blur(5px);
+    filter: blur(0px);
     transform: scale(.7);
 }
 .PACardContainer .PACard
